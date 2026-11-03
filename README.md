@@ -308,6 +308,10 @@ To obtain all seven scores, configure a judge for the saved experience. The
 pipeline uses **frozen claim rubrics**, accepts equivalent expressions and
 supported deductions, and aggregates claim judgments by experience unit.
 
+For rubric-based judging, we recommend a strong reasoning model, such as
+**GPT-6 Astra** or **GPT-6.1 Sol**. Model and deployment IDs vary by provider;
+replace `your-judge-model` below with the ID supported by your endpoint.
+
 Supply the judge credential without writing it into a configuration file:
 
 ```bash
@@ -330,10 +334,12 @@ python -m rescope_metrics report \
   --inputs "$PWD"/scores/*/metrics.json --output "$PWD/reports/main"
 ```
 
-Use the same judge configuration across models. Each request evaluates the
-claims of one experience unit against a saved-experience snapshot. Only `judge` calls a model;
-the other metric commands run locally and require no Docker container. For a
-judge without reasoning-effort support, add `--reasoning-effort omit` to
+For comparable results, use the same judge model/version, frozen rubrics, and
+inference settings across evaluated models, and report this configuration.
+Each request evaluates the claims of one experience unit against a
+saved-experience snapshot. Only `judge` calls a model; the other metric commands
+run locally and require no Docker container. For a judge without
+reasoning-effort support, add `--reasoning-effort omit` to
 `prepare`; use `--judge-api chat_completions` if required by its endpoint.
 
 The report includes **CSV summaries, per-task performance and experience curves,
