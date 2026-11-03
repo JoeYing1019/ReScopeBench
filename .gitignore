@@ -1,0 +1,43 @@
+# Only .gitignore itself may be published as a dotfile.
+.*
+!.gitignore
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+*.env
+.provider.env
+results/
+scores/
+reports/
+controllers/
+*.log
+*.pem
+*.key
+.idea/
+.vscode/
+/runs/
+/exports/
+/archives/
+/verification/
+/release-manifest.json
+# Case data is installed separately from the pinned Hugging Face dataset.
+/rescopebench/cases/
+*.zip
+.netrc
+.npmrc
+.pypirc
+.ssh/
+.aws/
+.config/
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+._*
+# Reconstructed locally from the checked-in runtime parts.
+/rescopebench/vendor/*.tar.gz
+/rescopebench/vendor/*.tmp

@@ -1,0 +1,7 @@
+{
+  "schema": "rescopebench-batch-registry/v1",
+  "runs": [
+    {"case": "robot", "output": "/absolute/path/to/results/robot-model-a"},
+    {"case": "medical_appointment", "output": "/absolute/path/to/results/medical-model-a"}
+  ]
+}

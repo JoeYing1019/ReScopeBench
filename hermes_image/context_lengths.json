@@ -1,0 +1,3 @@
+{
+  "_comment": "Add model names as sent to the API and their documented context windows in tokens. Keys starting with _ are ignored. With no model entries, Hermes keeps its upstream context defaults. Example entry: your-served-model-id: 131072."
+}

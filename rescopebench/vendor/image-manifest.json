@@ -1,0 +1,13 @@
+{
+  "archive": "hermes-runtime-portable-reviewed18-v2-20261015.tar.gz",
+  "archive_bytes": 255675918,
+  "archive_sha256": "633111bc6e4fc92880f6852281589319b710c1530a478f8b5c378f04595949b1",
+  "hermes_commit": "345cd2b057a452236de401d3534b8502a7465e8d",
+  "image_id": "sha256:596bcba766f9ab30aaab081a5d513d6deda96ba25342b337d5145a0e875b217b",
+  "model_evaluation_evidence": false,
+  "platform": "linux/arm64",
+  "repack_receipt_sha256": "1a50d23d181c08d86a18ae7342b9ae8951e8d5745247b49687b678de990aff4a",
+  "schema": "rescopebench-runtime-distribution/v2",
+  "source_image_id": "sha256:0825db1463f3fa16de3aec99ec487baf526e93d1beb9c3941bba44f329050708",
+  "validation_status": "staged_pending_execution_and_privacy_disposition"
+}

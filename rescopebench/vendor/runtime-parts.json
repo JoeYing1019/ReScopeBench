@@ -1,0 +1,28 @@
+{
+  "schema": "rescopebench-runtime-parts/v1",
+  "archive": "hermes-runtime-portable-reviewed18-v2-20261015.tar.gz",
+  "bytes": 255675918,
+  "sha256": "633111bc6e4fc92880f6852281589319b710c1530a478f8b5c378f04595949b1",
+  "parts": [
+    {
+      "name": "hermes-runtime-000.part",
+      "bytes": 67108864,
+      "sha256": "b76067a938e91d63b91703c4f1118099f28696755f5ff18aaf7b5617d543d960"
+    },
+    {
+      "name": "hermes-runtime-001.part",
+      "bytes": 67108864,
+      "sha256": "1bcca883fd4e99d80d185fff8d15140d36729a6062de9ebe3dcc5ed4ee47c6af"
+    },
+    {
+      "name": "hermes-runtime-002.part",
+      "bytes": 67108864,
+      "sha256": "1c7551685365a437f23147b21a08a27cbefeeb74db180f2a826c3367c56c38a4"
+    },
+    {
+      "name": "hermes-runtime-003.part",
+      "bytes": 54349326,
+      "sha256": "2413fe2d9618fb61975b0b021a3d0a5ac23b6d673d8e40e714c49ba74a72bb8f"
+    }
+  ]
+}
