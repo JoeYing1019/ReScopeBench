@@ -5,7 +5,7 @@
 
 <p><i>Can agents keep experience useful when their environment changes?</i></p>
 
-![Paper: Coming Soon](https://img.shields.io/badge/Paper-Coming%20Soon-6B7280?style=flat-square)
+[![Paper](https://img.shields.io/badge/arXiv-2611.05450-B31B1B?style=flat-square)](https://arxiv.org/pdf/2611.05450)
 [![Homepage](https://img.shields.io/badge/Project-Homepage-225F96?style=flat-square)](https://rescopebench.github.io/)
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-3276B3?style=flat-square)](https://huggingface.co/datasets/JoeYing/ReScopeBench)
 
@@ -353,11 +353,12 @@ If you use ReScopeBench in your research, please cite:
 
 ```bibtex
 @misc{huang2026rescopebench,
-  title  = {Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments},
-  author = {Huang, Shijue and Guo, Hangyu and Zhang, Hengheng and An, Guo and He, Zhitao and Tian, Qi and Feng, Yiren},
-  year   = {2026},
-  note   = {Preprint},
-  url    = {https://rescopebench.github.io/}
+  title         = {Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments},
+  author        = {Huang, Shijue and Guo, Hangyu and Zhang, Hengheng and An, Guo and He, Zhitao and Tian, Qi and Feng, Yiren},
+  year          = {2026},
+  eprint        = {2611.05450},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2611.05450}
 }
 ```
 
